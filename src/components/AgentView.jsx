@@ -127,7 +127,7 @@ export default function AgentView({ onAutoDisconnect, sessionTimeLimitSeconds })
         <VoiceAssistantControlBar />
         {limitSeconds != null ? (
           <p className="session-note">
-            Demo session—capped to keep API usage sustainable. For unlimited sessions, contact the owner.
+            Free demo sessions are time-limited. Want full access? Reach out to the owner.
           </p>
         ) : null}
         <DeveloperFooter />
